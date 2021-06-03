@@ -99,6 +99,10 @@ nav {
     align-items: center;
     padding: 40px;
     z-index: 2;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
 }
 
 .sticky {
@@ -107,6 +111,10 @@ nav {
     position: fixed;
     top: 0;
     z-index: 5;
+    -moz-transition: height 2s ease;
+    -webkit-transition: height 2s ease;
+    -o-transition: height 2s ease;
+    transition: height 2s ease;
 }
 
 #brand {
