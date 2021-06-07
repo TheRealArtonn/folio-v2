@@ -712,15 +712,6 @@ footer #footer__width .footer__nav nav ul li a:hover {
 }
 
 
-/*
-
-@media only screen and (max-width: 1800px) {
-    .project__wrapper .size1365px {
-        min-width: 1165px;
-    }  
-}
-*/
-
 .iframe__container {
     overflow: hidden;
     /* 16:9 aspect ratio */
@@ -745,6 +736,33 @@ footer #footer__width .footer__nav nav ul li a:hover {
     top: 50%;
     left: 50%;
     z-index: 1;
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .project__wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .project__wrapper aside {
+        width: 100%;
+    }
+    
+    .project__wrapper aside h1 {
+        font-size: 43px;
+    }
+    
+    .project__wrapper aside .over__title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .project__wrapper aside h1 {
+        font-size: 34px;
+    }
 }
 
 
